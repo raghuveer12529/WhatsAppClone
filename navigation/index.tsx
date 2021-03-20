@@ -38,6 +38,7 @@ function RootNavigator() {
       <Stack.Screen
         name="Root"
         component={BottomTabNavigator}
+        
         options={{
           title: 'Raghuveer\'s App',
           headerRight: () => (
